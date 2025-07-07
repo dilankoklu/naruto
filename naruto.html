@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Naruto Tanıtım Sayfası</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1, h2, h3 {
+      color: #FF6600;
+    }
+
+    img {
+      display: block;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    ul, ol {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+    }
+
+    p {
+      max-width: 700px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #FF6600;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #FF6600;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #e65c00;
+    }
+
+    hr {
+      margin: 40px 0;
+      border: none;
+      border-top: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <h1>Naruto Uzumaki</h1>
+  <h2>Gizli Yaprak Köyü'nün Cesur Ninja Kahramanı</h2>
+  <h3>“Hokage olacağım!”</h3>
+
+ 
+  <img src="naruto.jpg" alt="Naruto Uzumaki" width="250">
+
+  
+  <p>
+    Naruto Uzumaki, Konoha (Gizli Yaprak Köyü)'nün yaramaz ama cesur bir ninjasıdır. İçinde mühürlü olarak yaşayan dokuz kuyruklu tilkiyle (Kurama) birlikte büyüyen Naruto'nun en büyük hayali, köyünün lideri olan Hokage olmaktır. Dostluk, azim ve adalet onun yol göstericisidir.
+  </p>
+
+  
+  <h3>Süper Güçleri</h3>
+  <ul>
+    <li>Gölge Klonu Tekniği (Kage Bunshin no Jutsu)</li>
+    <li>Rasengan</li>
+    <li>Kurama'nın çakrasını kullanma</li>
+    <li>Bilge Modu (Sage Mode)</li>
+  </ul>
+
+  <h3>Başlıca Düşmanları</h3>
+  <ol>
+    <li>Orochimaru</li>
+    <li>Akatsuki (Pain, Itachi, vb.)</li>
+    <li>Kaguya Otsutsuki</li>
+  </ol>
+
+  <h3>Ekibi</h3>
+  <ul>
+    <li>Sasuke Uchiha</li>
+    <li>Sakura Haruno</li>
+    <li>Kakashi Hatake</li>
+  </ul>
+
+  
+  <p>
+    Daha fazlası için <a href="https://naruto.fandom.com/wiki/Naruto_Uzumaki" target="_blank">Naruto Wiki</a> sayfasını ziyaret edebilirsin.
+  </p>
+
+  <hr>
+
+ 
+  <h2>Kahraman Ekibine Katıl!</h2>
+  <form action="#" method="post">
+    <label for="adsoyad">İsim ve Soyisim:</label>
+    <input type="text" id="adsoyad" name="adsoyad" required placeholder="Adınızı yazınız">
+
+    <label for="kahraman">Süper Kahraman Adınız:</label>
+    <input type="text" id="kahraman" name="kahraman" required placeholder="Kahraman adınızı yazınız">
+
+    <label for="guc">En Sevdiğiniz Süper Güç:</label>
+    <input type="text" id="guc" name="guc" required placeholder="Süper gücünüz">
+
+    <label for="mesaj">Başvuru Mesajı:</label>
+    <textarea id="mesaj" name="mesaj" rows="4" required placeholder="Neden bu ekibe katılmak istiyorsunuz?"></textarea>
+
+    <button type="submit">Başvur</button>
+  </form>
+
+</body>
+</html>
